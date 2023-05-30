@@ -56,7 +56,7 @@
     }
 
     .header-text{
-        display: none;
+        font-weight: bold;
     }
 
   }
