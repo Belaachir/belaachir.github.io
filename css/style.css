@@ -35,10 +35,22 @@
 
 /*Contact*/
 
+.icons a{
+    display: inline-block;
+    color: white;
+    transition: transform 0.5s;
+}
+
+.icons a:hover{
+    color: #006ff7;
+    transform: translateY(-5px);
+}
+
 /*Projecten*/
 .project div{
     background: #262626;
     transition: background 0.5s, transform 0.5s;
+    cursor: pointer;
 }
 
 
