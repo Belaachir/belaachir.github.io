@@ -36,7 +36,17 @@
 
 /*Contact*/
 
+/*Projecten*/
+.project div{
+    background: #262626;
+    transition: background 0.5s, transform 0.5s;
+}
 
+
+.project div:hover{
+    background: #006ff7;
+    transform: translateY(-10px)
+}
 
 @media screen and (max-width: 600px) {
     .header{
@@ -60,4 +70,8 @@
     }
 
   }
+
+
+
+
 
