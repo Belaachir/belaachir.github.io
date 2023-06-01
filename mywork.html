@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
 
 <head>
   <title>Mohamed Belaachir</title>
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/css/style.css">
 
   <!--Animatie-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
   <!--Bootsrap icons-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -24,41 +24,49 @@
 
   <!-- Start Navbar -->
   <div class="container-fluid shadow-sm">
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Mohamed</a>
-        <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#" aria-current="page">Home <span
-                  class="visually-hidden">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Over mij</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">Projecten</a>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Hoger lager</a>
-                <a class="dropdown-item" href="#">Boter kas en eiren</a>
-                <a class="dropdown-item" href="#">Porejct 3</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#lob">LOB</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+    <div class="row">
+      <div class="col mt-3">
+        <a class="navbar-brand" href="#"><b class="fs-2"><span class="text-primary">M</span>ohamed</b></a>
+
+      </div>
+      <div class="col d-flex justify-content-end">
+        <nav class="navbar navbar-expand-sm">
+          <div class="container">
+            <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" aria-current="page">Home <span
+                      class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Over mij</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Projecten</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Hoger lager</a>
+                    <a class="dropdown-item" href="#">Boter kas en eiren</a>
+                    <a class="dropdown-item" href="#">Porejct 3</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#lob">LOB</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
   </div>
 
   <!-- End Navbar -->
@@ -88,7 +96,7 @@
 
   <!--Start over mij-->
 
-  <div class="container shadow-lg" id="about">
+  <div class="container shadow-lg mt-3" id="about">
     <div class="row">
       <h1 class="animate__animated animate__flip text-center p-5 fw-bold text-primary">Over mij</h1>
       <div class="col-12 col-xl-5">
@@ -165,10 +173,13 @@
                   niet-functionele eisen te realiseren in RavenDB die een relationele database uitdagen op het gebied
                   van
                   performance. De belangrijkste waren:
+                </p>
+                <ul>
                   <li>een dynamische facetnavigatie op willekeurige producteigenschappen;</li>
                   <li>op vrije tekst zoeken, rekening houdend met spelfouten en synoniemen;</li>
                   <li>geografisch zoeken naar productartikelen in filialen binnen een straal van x aantal km.</li>
-                </p>
+                </ul>
+
 
                 <h3>
                   1.5. Was het makkelijk om na je opleiding aan het werk te komen?
@@ -263,19 +274,18 @@
                 <h3>
                   1.12. Wat zijn de leuke kanten van je beroep en wat zijn de minder leuke kanten?
                 </h3>
+                <h4>Leuke kanten</h4>
                 <ul>
-                  Leuke kanten
-                  <li>• je bent altijd probleemoplossend bezig voor real-world problemen;</li>
-                  <li>• werken met nieuwste technieken aan innovatieve projecten;</li>
-                  <li>• voldoening krijgen wanneer een interessant vraagstuk opgelost is.</li>
+                  <li>je bent altijd probleemoplossend bezig voor real-world problemen;</li>
+                  <li>werken met nieuwste technieken aan innovatieve projecten;</li>
+                  <li>voldoening krijgen wanneer een interessant vraagstuk opgelost is.</li>
                 </ul>
+                <h4>Minder leuke kanten</h4>
                 <ul>
-                  Minder leuke kanten
-                  <li>• negatieve stress van projecten met een dringende deadline;</li>
-                  <li>• werken met oude/legacy systemen (omdat het even nodig is);</li>
-                  <li>• constant met veranderingen te maken hebben en je constant blijven updaten. Enig balans tussen
+                  <li>negatieve stress van projecten met een dringende deadline;</li>
+                  <li>werken met oude/legacy systemen (omdat het even nodig is);</li>
+                  <li>constant met veranderingen te maken hebben en je constant blijven updaten. Enig balans tussen
                     stabiliteit en verandering is wenselijk.</li>
-
                 </ul>
                 Zeker. Data Science & AI is hype. De grote doorbraken waren pas gemaakt in de academische wereld. Nu
                 begint het bedrijfsleven dat langzamerhand om te armen. De kansen staan open aan alle kanten.
@@ -306,11 +316,11 @@
                   is het eerder uitzondering dan regel. Gezien ik de gelegenheid krijg om andere -- belangrijke -- zaken
                   tussendoor te regelen, vind ik dat helemaal prima. In het nieuwe werken tegenwoordig is dat ook
                   gebruikelijk.
-
-                  <li>• Python, C#.NET, Java.</li>
-                  <li>• PyCharm, IntelliJ, Visual Studio.</li>
                 </p>
-
+                <ul>
+                  <li>Python, C#.NET, Java.</li>
+                  <li>PyCharm, IntelliJ, Visual Studio.</li>
+                </ul>
                 <h2>
                   2. Wat ik geleerd heb over het beroep van ICT’er
                 </h2>
@@ -376,8 +386,8 @@
                 </video>
                 <div class="row">
                   <div class="col-12 col-xl-6">
+                    <h3><b>Sterktes</b></h3>
                     <ul>
-                      <b>Sterktes</b>
                       <li>Zelfstandig werken</li>
                       <li>Mijn fouten verbeteren</li>
                       <li>Uit ander mensen leren</li>
@@ -385,8 +395,8 @@
                     </ul>
                   </div>
                   <div class="col-12 col-xl-6">
+                    <h3><b>Verbeterpunten</b></h3>
                     <ul>
-                      <b>Verbeterpunten</b>
                       <li>Mijn ICT skills</li>
                       <li>Mijn Nederlands taal</li>
                       <li>Keuzes maken</li>
@@ -396,9 +406,8 @@
                 </div>
                 <div class="row">
                   <div class="col-12 col-xl-6">
+                    <h3><b>Kansen</b></h3>
                     <ul>
-                      <b>Kansen
-                      </b>
                       <li>Omgaan Met veel mensen die Nederlands spreken
                       </li>
                       <li>Meer dingen leren over het programmeren
@@ -410,9 +419,8 @@
                     </ul>
                   </div>
                   <div class="col-12 col-xl-6">
+                    <h3><b>Bedreigingen</b></h3>
                     <ul>
-                      <b>Bedreigingen
-                      </b>
                       <li>Ouder dan mijn klasgenoten
                       </li>
                       <li>MBO niveau niet gelijk aan mijn niveau
@@ -515,7 +523,7 @@
         </div>
       </div>
       <div class="col-12 col-xl-6">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion accordion-flush">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -546,61 +554,61 @@
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
               <div class="accordion-body">
                 <img src="/img/Idealetoekomst.png" class="img-fluid" alt="">
+                <h3><b>Leren</b></h3>
                 <ul>
-                  <b>Leren</b>
                   <li>Ik wil veel leren om nieuwe dingen te ontwikkelen en om een hoger niveau te bereiken.
                   </li>
                 </ul>
+                <h3><b>Programmeertalen</b></h3>
                 <ul>
-                  <b>Programmeertalen</b>
                   <li>
                     Ik wil graag meer van de taal van het programmeren leren.
                   </li>
                 </ul>
+                <h3><b>Nieuwe dingen maken</b></h3>
                 <ul>
-                  <b>Nieuwe dingen maken</b>
                   <li>
                     Met de juiste bagage kan ik nieuwe applicaties etc. ontwikkelen.
                   </li>
                 </ul>
+                <h3><b>Werken</b></h3>
                 <ul>
-                  <b>Werken</b>
                   <li>
                     Ik wil graag eerst een leuke baan vinden om ervaring op te kunnen doen in de praktijk.
                   </li>
                 </ul>
+                <h3><b>Sporten</b></h3>
                 <ul>
-                  <b>Sporten</b>
                   <li>
                     Ik houd altijd van sport voor mijn gezondheid en ook vind ik het kijken naar sport leuk.
                   </li>
                 </ul>
+                <h3><b>Eigen bedrijf beginnen</b></h3>
                 <ul>
-                  <b>Eigen bedrijf beginnen</b>
                   <li>
                     In de toekomst wil ik een eigen bedrijf beginnen. Ik wil graag voor mijzelf werken en innoveren.
                   </li>
                 </ul>
+                <h3><b>Omgaan met vrienden</b></h3>
                 <ul>
-                  <b>Omgaan met vrienden</b>
                   <li>
                     Omgaan met vrienden geeft altijd een positieve energie die ik nodig heb.
                   </li>
                 </ul>
+                <h3><b>Reizen</b></h3>
                 <ul>
-                  <b>Reizen</b>
                   <li>
                     Ik vind reizen een leuk hobby om te doen. Ik wil graag in het toekomst veel landen bezoeken.
                   </li>
                 </ul>
+                <h3><b>Gamen</b></h3>
                 <ul>
-                  <b>Gamen</b>
                   <li>
                     Ik houd veel van gamen en ik wil een nieuwe game ontwikkelen.
                   </li>
                 </ul>
+                <h3><b>Familie</b></h3>
                 <ul>
-                  <b>Familie</b>
                   <li>
                     Zonder familie leven vind ik moeilijk. Ik ben een mens die zijn familie altijd belangrijk vind. Ik
                     wil meer vrije tijd in het toekomst, zodat ik veel tijd met mijn familie kan doorbrengen.
@@ -614,7 +622,7 @@
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseThree">
-                <b>Vaardigheden</b>
+                <b>Kwaliteiten</b>
               </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
@@ -725,49 +733,65 @@
       </div>
     </div>
   </div>
-    <!--End Projecten-->
+  <!--End Projecten-->
 
-    <!--Start Kwaliteiten-->
-    <div class="container" id="qualities">
-      <div class="row">
-        <h1 class="text-center p-5 fw-bold text-primary">Kwaliteiten</h1>
+  <!--Start Kwaliteiten-->
+  <div class="container-fluid p-5 shadow-lg m-2" id="qualities">
+    <h1 class="text-center p-5 fw-bold text-primary">Vaardigheden</h1>
+    <div class="progress m-2">
+      <div class="progress-bar bg-danger" style="width:70%">HTML 70%</div>
+    </div>
+    <div class="progress m-2">
+      <div class="progress-bar bg-success" style="width:60%">CSS 60%</div>
+    </div>
+    <div class="progress m-2">
+      <div class="progress-bar bg-primary" style="width:80%">Bootstrap 80%</div>
+    </div>
+    <div class="progress m-2">
+      <div class="progress-bar bg-dark" style="width:50%">JavaScript 50%</div>
+    </div>
+    <div class="progress m-2">
+      <div class="progress-bar bg-info" style="width:20%">Php 20%</div>
+    </div>
+  </div>
+
+  <!--End Skills-->
+
+
+  <!--Start Contact-->
+
+  <div class="container-fluid bg-black text-white" id="contact">
+    <div class="row">
+      <h1 class="text-center p-5 fw-bold">Contact</h1>
+      <div class="col-12 col-xl-6 p-5 icons">
+        <a class="text-decoration-none" href="https://www.facebook.com/belaachir"><i
+            class="bi bi-facebook m-2 fs-2 "></i><b>Facebook</b></a><br>
+        <a class="text-decoration-none" href="#"><i class="bi bi-instagram m-2 fs-2"></i><b>Instagram</b></a><br>
+        <a class="text-decoration-none" href="mailto:belaachirmohamed@gmail.com"><i
+            class="bi bi-envelope m-2 fs-2"></i><b>E-mail</b></a>
+
+      </div>
+      <div class="col-12 col-xl-6">
+        <div class="form-floating mb-3">
+          <input class="form-control bg-dark" id="floatingInputDisabled" placeholder="name">
+          <label for="floatingInputDisabled">Naam</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control bg-dark" id="floatingInput1Disabled" placeholder="E-mail">
+          <label for="floatingInput1Disabled">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control bg-dark text-white" placeholder="Laat een bericht hier"
+            id="floatingTextarea2Disabled" style="height: 100px"></textarea>
+          <label for="floatingTextarea2Disabled">Message</label>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-secondary mb-2" data-bs-toggle="tooltip" title="klick">Stuur</button>
+        </div>
       </div>
     </div>
-    <!--End Skills-->
-
-
-    <!--Start Contact-->
-
-    <div class="container-fluid bg-black text-white" id="contact">
-      <div class="row">
-        <h1 class="text-center p-5 fw-bold">Contact</h1>
-        <div class="col-12 col-xl-6 p-5 icons">
-          <a class="text-decoration-none" href="https://www.facebook.com/belaachir"><i class="bi bi-facebook m-2 fs-2 "></i><b>Facebook</b></a><br>
-          <a class="text-decoration-none" href="#"><i class="bi bi-instagram m-2 fs-2"></i><b>Instagram</b></a><br>
-          <a class="text-decoration-none" href="mailto:belaachirmohamed@gmail.com"><i class="bi bi-envelope m-2 fs-2"></i><b>E-mail</b></a>
-
-        </div>
-        <div class="col-12 col-xl-6">
-          <div class="form-floating mb-3">
-            <input type="name" class="form-control bg-dark" id="floatingInputDisabled" placeholder="Naam">
-            <label for="floatingInputDisabled">Naam</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control bg-dark" id="floatingInput1Disabled" placeholder="E-mail">
-            <label for="floatingInput1Disabled">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <textarea class="form-control bg-dark text-white" placeholder="Laat een bericht hier" id="floatingTextarea2Disabled" style="height: 100px" ></textarea>
-            <label for="floatingTextarea2Disabled">Message</label>
-          </div>
-          <div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-secondary mb-2">Stuur</button>
-          </div>
-        </div>
-      </div>
-      <div class="row bg-light text-center">
-        <p class="p-3 text-black">Deze website wordt door <b class="text-primary">Mohamed Belaachir</b> gemaakt.</p>
-      </div>
+    <div class="row bg-light text-center">
+      <p class="p-3 text-black">Deze website wordt door <b class="text-primary">Mohamed Belaachir</b> gemaakt.</p>
     </div>
   </div>
   <!--End Contact-->
