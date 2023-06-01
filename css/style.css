@@ -59,6 +59,17 @@
     transform: translateY(-10px)
 }
 
+.ul-list{
+    list-style: none;
+}
+@media screen and (max-width: 950px) {
+
+    .learning-goal{
+        display: none;
+    }
+
+  }
+
 @media screen and (max-width: 600px) {
     .header{
         background-image: url('/img/my-imga.png');
@@ -80,7 +91,12 @@
         font-weight: bold;
     }
 
+    .learning-goal{
+        display: none;
+    }
+
   }
+
 
 
 
