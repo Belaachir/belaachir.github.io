@@ -17,6 +17,7 @@
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 10;
 }
 /*  header*/
 
@@ -62,6 +63,17 @@
 .ul-list{
     list-style: none;
 }
+
+.width{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.top-rounder:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
 @media screen and (max-width: 950px) {
 
     .learning-goal{
@@ -94,6 +106,8 @@
     .learning-goal{
         display: none;
     }
+
+
 
   }
 
