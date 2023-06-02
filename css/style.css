@@ -1,10 +1,3 @@
-/* Soon pagina*/
-.soon-page{
-    width: 100%;
-    height: 100vh;
-}
-/* */
-
 *{
     margin: 0;
     padding: 0;
@@ -90,7 +83,7 @@
         background-position: center;
         width: 100%; 
         height: 80%; 
-        padding: 100px;
+        padding: 50px;
     }
 
     .titel-header{
@@ -106,9 +99,6 @@
     .learning-goal{
         display: none;
     }
-
-
-
   }
 
 

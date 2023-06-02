@@ -21,21 +21,20 @@
 
 <body>
 
-<div class="d-flex justify-content-end fixed-bottom p-2 arrow">
-  <a href="#">
-    <i class="bi bi-arrow-up-circle-fill top-rounder fs-1"></i>
-  </a>
-</div>
+  <div class="d-flex justify-content-end fixed-bottom p-2 arrow">
+    <a href="#">
+      <i class="bi bi-arrow-up-circle-fill top-rounder fs-1"></i>
+    </a>
+  </div>
 
   <!-- Start Navbar -->
   <div class="container-fluid shadow-sm navbar-position">
     <div class="row">
       <div class="col mt-3">
         <a class="navbar-brand" href="#"><b class="fs-2 text-dark"><span class="text-primary">M</span>ohamed</b></a>
-
       </div>
       <div class="col d-flex justify-content-end">
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-xl">
           <div class="container">
             <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="collapse"
               data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -55,8 +54,8 @@
                   <a class="nav-link fw-bold" href="#lob">LOB</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle fw-bold" href="#assignments" id="dropdownId" data-bs-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Projecten</a>
+                  <a class="nav-link dropdown-toggle fw-bold" href="#assignments" id="dropdownId"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projecten</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownId">
                     <a class="dropdown-item" href="#assignments">Hoger lager</a>
                     <a class="dropdown-item" href="#assignments">Boter kas en eiren</a>
@@ -79,16 +78,12 @@
       </div>
     </div>
   </div>
-
   <!-- End Navbar -->
 
-
-
   <!-- Start -->
-
   <div class="container-fluid header shadow-sm">
     <div class="row">
-      <div class="col-12 p-5 mt-5">
+      <div class="col-8 p-5 mt-5">
         <h1 class="animate__animated animate__zoomInDown text-white mt-5 titel-header fw-bold">
           Hallo,
           Ik ben <b><span class="text-primary">M</span>ohamed <br> <span class="text-primary">B</span>elaachir</b>
@@ -106,7 +101,6 @@
   <!-- End -->
 
   <!--Start over mij-->
-
   <div class="container shadow-lg mt-3" id="about">
     <div class="row">
       <h1 class="animate__animated animate__flip text-center p-5 fw-bold text-primary">Over mij</h1>
@@ -128,7 +122,6 @@
   <!--End over mij-->
 
   <!--Start LOB Opdrachten-->
-
   <div class="container p-5" id="lob">
     <div class="row">
       <h1 class="text-center p-5 fw-bold text-primary">LOB opdrachten</h1>
@@ -683,10 +676,11 @@
   <!--Start Projecten-->
   <div id="assignments" class="container-fluid bg-black text-white">
     <div class="container p-5">
-      <div class="row p-2">
+      <div class="row p-2 d-flex">
         <h1 class="text-center p-5 fw-bold">Projecten</h1>
         <div class="col-12 col-xl-4">
-          <a class="text-decoration-none" href="https://github.com/ROCMondriaanTIN/sd22-project-p02-boter-kaas-en-eieren-Belaachir.git">
+          <a class="text-decoration-none"
+            href="https://github.com/ROCMondriaanTIN/sd22-project-p02-boter-kaas-en-eieren-Belaachir.git">
             <div class="project text-white m-2">
               <div class="card p-5 text-start">
                 <img class="card-img-top img-fluid" src="/img/projects/boterkaas.png  " alt="Title">
@@ -694,6 +688,14 @@
               </div>
             </div>
           </a>
+          <div class="m-2">
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Informatie</button>
+            <div id="demo" class="collapse">
+              <p class="p-2 m-2">Ik heb dit project geprogrammeerd met behulp van HTML, CSS en JavaScript. Het programmeren van
+                dit project was in het begin een uitdaging, omdat het het eerste echte project is dat ik in JavaScript
+                programmeer nadat ik de basis van de taal heb geleerd.</p>
+            </div>
+          </div>
         </div>
         <div class="col-12 col-xl-4">
           <a class="text-decoration-none" href="/projetcs/hogerlager/index.html">
@@ -704,9 +706,18 @@
               </div>
             </div>
           </a>
+          <div class="m-2">
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo-1">Informatie</button>
+            <div id="demo-1" class="collapse">
+              <p class="p-2 m-2">Dit is het eerste project dat ik in de eerste fase heb geprogrammeerd nadat ik wat
+                basisprincipes van HTML, CSS en JavaScript had geleerd. In het begin was het moeilijk om ideeën om te zetten
+                in een echt project.</p>
+            </div>
+          </div>
         </div>
         <div class="col-12 col-xl-4">
-          <a class="text-decoration-none" href="https://github.com/ROCMondriaanTIN/sd22-p03-project-webcatalogus-scorpions.git">
+          <a class="text-decoration-none"
+            href="https://github.com/ROCMondriaanTIN/sd22-p03-project-webcatalogus-scorpions.git">
             <div class="project text-white m-2">
               <div class="card p-5 text-start">
                 <img class="card-img-top img-fluid" src="/img/projects/webshop-beginnen.png" alt="Title">
@@ -714,6 +725,15 @@
               </div>
             </div>
           </a>
+          <div class="m-2">
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo-2">Informatie</button>
+            <div id="demo-2" class="collapse">
+              <p class="p-2 m-2">Fase III-project. Nadat ik veel dingen op school heb geleerd. Mijn klasgenoten en ik
+                hebben een nieuw project geprogrammeerd. Dit project is een site die je informatie geeft over sport. In
+                het begin was het moeilijk omdat het werken in een team erg uitdagend is. We hebben echter ons doel bij de
+                programmering van het project kunnen bereiken.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row p-2 pt-0">
@@ -726,6 +746,14 @@
               </div>
             </div>
           </a>
+          <div class="m-2">
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo-3">Informatie</button>
+            <div id="demo-3" class="collapse">
+              <p class="p-2 m-2">Eindfase project. Na veel geleerd te hebben over bootstrap en javascript. Mijn collega's en
+                ik hebben dit project ontwikkeld.</p>
+            </div>
+          </div>
+
         </div>
         <div class="col-12 col-xl-4">
           <a class="text-decoration-none" href="/projetcs/Escaperoom/index.html">
@@ -736,6 +764,16 @@
               </div>
             </div>
           </a>
+          <div class="m-2">
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo-4">Informatie</button>
+            <div id="demo-4" class="collapse">
+              <p class="p-2 m-2">Nadat ik de eerste fase had afgerond en wat basisprincipes in JavaScript, HTML en CSS had
+                geleerd. Het was de week om dat te vertalen naar een nieuw project binnen een nieuw team. Dus ik en mijn
+                collega's van de afdeling dachten erover om dit project te programmeren. Waarin we leerden werken in een
+                team. En we probeerden dit project samen te programmeren.</p>
+            </div>
+          </div>
+
         </div>
         <div class="col-12 col-xl-4">
           <a class="text-decoration-none" href="https://github.com/ROCMondriaanTIN/sd22-themaweek-2-t1l-Belaachir.git">
@@ -746,6 +784,15 @@
               </div>
             </div>
           </a>
+          <div class="m-2">
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo-5">Informatie</button>
+            <div id="demo-5" class="collapse">
+              <p class="p-2 m-2">Ik heb dit project geprogrammeerd met behulp van HTML, JavaScript en CSS. Dit project is
+                een platform dat je een heleboel informatie over een computer laat zien. De site geeft u de mogelijkheid om
+                uw mening te geven over elke gewenste computer.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -774,190 +821,188 @@
       <div class="progress-bar bg-info" style="width:20%">Php 20%</div>
     </div>
   </div>
-
   <!--End Vaardigheden-->
 
-    <!--Start huistijl-->
-
-    <div class="container-fluid text-center p-5" id="inspiratie">
-      <div class="row">
-        <div class="col-12 col-xl-6">
-          <h2 class="p-5 fw-bold text-primary">Inspiratie ideeën</h2>
-          <div class="p-5">
-            <h5>Navbar Fixed</h5>
-            <a href="https://nl.wix.com/">
-              <img class="img-fluid" src="/img/insp/fixednavbar.png" alt="">
-            </a>
-          </div>
-          <div class="p-5">
-            <h5>Header</h5>
-            <a href="https://www.safetpojskic.com/">
-              <img class="img-fluid" src="/img/insp/header.png" alt="">
-            </a>
-          </div>
-          <p class="p-5">
-            Enkele andere dingen die ik op school heb geleerd van eerdere projecten. Ik heb zelf ook nog wat andere dingen bedacht die ik probeerde te vertalen naar code op mijn eigen website. Het was erg moeilijk om nieuwe en unieke ideeën te vinden om te ontwikkelen.
-          </p>
+  <!--Start huistijl-->
+  <div class="container-fluid text-center p-5" id="inspiratie">
+    <div class="row">
+      <div class="col-12 col-xl-6">
+        <h2 class="p-5 fw-bold text-primary">Inspiratie ideeën</h2>
+        <div class="p-5">
+          <h5>Navbar Fixed</h5>
+          <a href="https://nl.wix.com/">
+            <img class="img-fluid" src="/img/insp/fixednavbar.png" alt="">
+          </a>
         </div>
-        <div class="col-12 col-xl-6">
-          <h2 class="p-5 fw-bold text-primary">Kleuren</h2>
-          <div class="bg-black rounded-circle border border-4 p-5 width"></div>
-          <div class="bg-white rounded-circle border border-4 p-5 width"></div>
-          <div class="bg-primary rounded-circle border border-4 p-5 width"></div>
-          <div class="bg-secondary rounded-pill border border-4 p-5 width"></div>
-          <h2 class="p-5 fw-bold text-primary">Lettertype</h2>
-          <p class="fw-bold">'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif</p>
+        <div class="p-5">
+          <h5>Header</h5>
+          <a href="https://www.safetpojskic.com/">
+            <img class="img-fluid" src="/img/insp/header.png" alt="">
+          </a>
+        </div>
+        <p class="p-5">
+          Enkele andere dingen die ik op school heb geleerd van eerdere projecten. Ik heb zelf ook nog wat andere dingen
+          bedacht die ik probeerde te vertalen naar code op mijn eigen website. Het was erg moeilijk om nieuwe en unieke
+          ideeën te vinden om te ontwikkelen.
+        </p>
+      </div>
+      <div class="col-12 col-xl-6">
+        <h2 class="p-5 fw-bold text-primary">Kleuren</h2>
+        <div class="bg-black rounded-circle border border-4 p-5 width"></div>
+        <div class="bg-white rounded-circle border border-4 p-5 width"></div>
+        <div class="bg-primary rounded-circle border border-4 p-5 width"></div>
+        <div class="bg-secondary rounded-pill border border-4 p-5 width"></div>
+        <h2 class="p-5 fw-bold text-primary">Lettertype</h2>
+        <p class="fw-bold">'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif</p>
+        <h2 class="p-5 fw-bold text-primary">Sitemap</h2>
+        <img src="/img/sitemap.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+  <!--Start huistijl-->
+
+  <!--Start Doelstilling-->
+  <div class="container p-5 shadow-lg my-5" id="missie">
+    <div class="row">
+      <h1 class="text-center text-primary p-5 fw-bold">Missie/Doestelling</h1>
+      <div class="col-12 col-xl-6">
+        <h2 class="text-primary">Missie</h2>
+        <p>Mijn missie is nu om mijn diploma te halen, daarna denk ik na over het vinden van een voor mij passende baan
+          die ik kan combineren met studeren.</p>
+      </div>
+      <div class="col-12 col-xl-6">
+        <h2 class="text-primary">Doelstelling</h2>
+        <ul>
+          <li>Ik wil een mooie website ontwerpen zonder fouten</li>
+          <li>Ik wil nieuwe dingen leren en mezelf verder ontwikkelen</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col learning-goal">
+        <h2 class="text-primary">Leerdoelen</h2>
+        <div class="p-5">
+          <table class="table text-center">
+            <thead class="bg-black text-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Leerdolen</th>
+                <th scope="col">Bron</th>
+                <th scope="col">Afgerond</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>HTML-css</td>
+                <td>
+                  <ul class="ul-list">
+                    <li>Op school</li>
+                    <li>w3schools</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="ul-list">
+                    <li><i class="bi bi-check2-all"></i></li>
+                    <li><i class="bi bi-check2-all"></i></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Css animatie</td>
+                <td>https://animate.style</td>
+                <td>
+                  <ul class="ul-list">
+                    <li>
+                      <i class="bi bi-arrow-counterclockwise"></i>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Animatie</td>
+                <td>https://animista.net/</td>
+                <td>
+                  <ul class="ul-list">
+                    <li>
+                      <i class="bi bi-arrow-counterclockwise"></i>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Php</td>
+                <td>https://www.php.net/</td>
+                <td>
+                  <ul class="ul-list">
+                    <li>
+                      <i class="bi bi-arrow-counterclockwise"></i>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Javascript</td>
+                <td>
+                  <ul class="ul-list">
+                    <li>Op school</li>
+                    <li>w3schools</li>
+                    <li>https://mbo-sd.nl/</li>
+                    <li>https://www.javascript.com/</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="ul-list">
+                    <li><i class="bi bi-check2-all"></i></li>
+                    <li><i class="bi bi-check2-all"></i></li>
+                    <li><i class="bi bi-check2-all"></i></li>
+                    <li><i class="bi bi-arrow-counterclockwise"></i>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Nederlands taal</td>
+                <td>
+                  <ul class="ul-list">
+                    <li>Op school</li>
+                    <li>https://oefenen.facet.onl/facet/pages/oefen/start/</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="ul-list">
+                    <li><i class="bi bi-check2-all"></i></li>
+                    <li><i class="bi bi-arrow-counterclockwise"></i>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Vue.js</td>
+                <td>
+                  <ul class="ul-list">
+                    <li>Op school</li>
+                    <li>https://www.youtube.com</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="ul-list">
+                    <li><i class="bi bi-check2-all"></i></li>
+                    <li><i class="bi bi-arrow-counterclockwise"></i>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
-
-    <!--Start huistijl-->
-
-
-    <!--Start Doelstilling-->
-    <div class="container p-5 shadow-lg my-5" id="missie">
-      <div class="row">
-        <h1 class="text-center text-primary p-5 fw-bold">Missie/Doestelling</h1>
-        <div class="col-12 col-xl-6">
-          <h2 class="text-primary">Missie</h2>
-          <p>Mijn missie is nu om mijn diploma te halen, daarna denk ik na over het vinden van een voor mij passende baan die ik kan combineren met studeren.</p>
-        </div>
-        <div class="col-12 col-xl-6">
-          <h2 class="text-primary">Doelstelling</h2>
-          <ul>
-            <li>Ik wil een mooie website ontwerpen zonder fouten</li>
-            <li>Ik wil nieuwe dingen leren en mezelf verder ontwikkelen</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col learning-goal">
-          <h2 class="text-primary">Leerdoelen</h2>
-          <div class="p-5">
-            <table class="table text-center">
-              <thead class="bg-black text-light">
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Leerdolen</th>
-                  <th scope="col">Bron</th>
-                  <th scope="col">Afgerond</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>HTML-css</td>
-                  <td>
-                    <ul class="ul-list">
-                      <li>Op school</li>
-                      <li>w3schools</li>
-                    </ul>
-                  </td>
-                  <td>
-                    <ul class="ul-list">
-                      <li><i class="bi bi-check2-all"></i></li>
-                      <li><i class="bi bi-check2-all"></i></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Css animatie</td>
-                  <td>https://animate.style</td>
-                  <td>
-                    <ul class="ul-list">
-                      <li>
-                        <i class="bi bi-arrow-counterclockwise"></i>
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Animatie</td>
-                  <td>https://animista.net/</td>
-                  <td>
-                    <ul class="ul-list">
-                      <li>
-                        <i class="bi bi-arrow-counterclockwise"></i>
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>Php</td>
-                  <td>https://www.php.net/</td>
-                  <td>
-                    <ul class="ul-list">
-                      <li>
-                        <i class="bi bi-arrow-counterclockwise"></i>
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Javascript</td>
-                  <td>
-                    <ul class="ul-list">
-                      <li>Op school</li>
-                      <li>w3schools</li>
-                      <li>https://mbo-sd.nl/</li>
-                      <li>https://www.javascript.com/</li>
-                    </ul>
-                  </td>
-                  <td>
-                    <ul class="ul-list">
-                      <li><i class="bi bi-check2-all"></i></li>
-                      <li><i class="bi bi-check2-all"></i></li>
-                      <li><i class="bi bi-check2-all"></i></li>
-                      <li><i class="bi bi-arrow-counterclockwise"></i>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">6</th>
-                  <td>Nederlands taal</td>
-                  <td>
-                    <ul class="ul-list">
-                      <li>Op school</li>
-                      <li>https://oefenen.facet.onl/facet/pages/oefen/start/</li>
-                    </ul>
-                  </td>
-                  <td>
-                    <ul class="ul-list">
-                      <li><i class="bi bi-check2-all"></i></li>
-                      <li><i class="bi bi-arrow-counterclockwise"></i>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">7</th>
-                  <td>Vue.js</td>
-                  <td>
-                    <ul class="ul-list">
-                      <li>Op school</li>
-                      <li>https://www.youtube.com</li>
-                    </ul>
-                  </td>
-                  <td>
-                    <ul class="ul-list">
-                      <li><i class="bi bi-check2-all"></i></li>
-                      <li><i class="bi bi-arrow-counterclockwise"></i>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <!--End Doelstilling-->
-
-
+  </div>
+  <!--End Doelstilling-->
   <!--Start Contact-->
 
   <div class="container-fluid bg-black text-white" id="contact">
@@ -972,9 +1017,11 @@
       </div>
       <div class="col-6 col-xl-3 p-5 icons">
         <a class="text-decoration-none" href="#"><i class="bi bi-house-door fs-2"></i><b> Home</b></a><br>
-        <a class="text-decoration-none" href="#about"><i class="bi bi-file-person-fill fs-2"></i><b> Over mij</b></a><br>
+        <a class="text-decoration-none" href="#about"><i class="bi bi-file-person-fill fs-2"></i><b> Over
+            mij</b></a><br>
         <a class="text-decoration-none" href="#lob"><i class="bi bi-pen-fill fs-2"></i><b> LOB</b></a><br>
-        <a class="text-decoration-none" href="#assignments"><i class="bi bi-person-workspace fs-2"></i><b> Projecten</b></a>
+        <a class="text-decoration-none" href="#assignments"><i class="bi bi-person-workspace fs-2"></i><b>
+            Projecten</b></a>
       </div>
       <div class="col-12 col-xl-6 p-3">
         <div class="form-floating mb-3">
@@ -1000,14 +1047,6 @@
     </div>
   </div>
   <!--End Contact-->
-
-
-
-
-
-
-
-
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
